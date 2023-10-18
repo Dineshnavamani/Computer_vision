@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-cap = cv2.VideoCapture("c:/Users/manvitha/OneDrive/Pictures/VID-20231015-WA0052.mp4")
+cap = cv2.VideoCapture("D:/Samsung Galaxy A71/Movies/WhatsApp/VID-20230125-WA0039.mp4")
 while True:
     ret, frame = cap.read()
     pts1 = np.float32([[200,300], [5, 2],[0, 4], [6, 0]])
