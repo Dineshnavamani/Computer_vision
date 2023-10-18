@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-image = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/manvi.jpg")
-img2 = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/WhatsApp Image 2023-10-18 at 09.32.14.jpg")
+image = cv2.imread("alone.jpeg")
+img2 = cv2.imread("nature.jpeg")
 print(image.shape) 
 cv2.imshow("original", image)
 imageCopy = image.copy()
