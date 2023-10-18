@@ -1,6 +1,6 @@
 import cv2
-img = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/manvi.jpg")
-wm = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/WhatsApp Image 2023-10-18 at 09.32.14.jpg")
+img = cv2.imread("alone.jpeg")
+wm = cv2.imread("dinesh.jpg")
 h_wm, w_wm = wm.shape[:2]
 h_img, w_img = img.shape[:2]
 center_x = int(w_img/2)
