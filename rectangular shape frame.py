@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/hema.jpg")
+img = cv2.imread("alone.jpeg")
 x, y = 100, 100
 width, height = 200, 150
 roi = img[y:y+height, x:x+width]
