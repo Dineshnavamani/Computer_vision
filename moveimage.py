@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img=cv2.imread("C:/Users/manvitha/OneDrive/Pictures/manvitha.jpg",0)
+img=cv2.imread("dinesh.jpg",0)
 row,col=img.shape
 mat=np.float32([[1,0,100],[0,1,50]])
 trans=cv2.warpAffine(img,mat,(col,row))
