@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 kernel=np.ones((5,5),np.uint8)
 print(kernel)
-path="C:/Users/manvitha/Downloads/wallpaperflare.com_wallpaper.jpg"
+path="dinesh.jpg"
 img=cv2.imread(path)
 cv2.imshow("original image",img)
 cv2.waitKey(0)
