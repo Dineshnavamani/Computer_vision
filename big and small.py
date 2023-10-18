@@ -1,5 +1,5 @@
 import cv2
-image_path ="C:/Users/manvitha/OneDrive/Pictures/manvi.jpg"
+image_path ="alone.jpeg"
 image = cv2.imread(image_path)
 bigger_scale_factor = 1.5
 smaller_scale_factor = 0.7
