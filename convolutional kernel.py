@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/manvi.jpg") 
+img = cv2.imread("alone.jpeg") 
 cv2.IMREAD_GRAYSCALE
 dx = cv2.Sobel(img, cv2.CV_64F, 1, 0)
 dy = cv2.Sobel(img, cv2.CV_64F, 0, 1)
