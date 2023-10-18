@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
-image_path = "C:/Users/manvitha/OneDrive/Pictures/manvitha.jpg"
+image_path = "dinesh.jpg"
 
 import cv2
 import numpy as np
-img = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/manvitha.jpg")
+img = cv2.imread("dinesh.jpg")
 rows,cols,ch = img.shape
 pts1 = np.float32([[56,65],[368,52],[28,387],[389,390]])
 pts2 = np.float32([[100,50],[300,0],[0,300],[300,300]])
