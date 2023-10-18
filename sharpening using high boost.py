@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image_path = "C:/Users/manvitha/OneDrive/Pictures/manvi.jpg"
+image_path = "alone.jpeg"
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 blurred_image = cv2.GaussianBlur(image, (5, 5), 2)
 high_pass_image = cv2.subtract(image, blurred_image)
