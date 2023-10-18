@@ -21,5 +21,5 @@ def reverse_video_play(video_path):
             break
     cv2.destroyAllWindows()
 if __name__ == "__main__":
-    video_path = "C:/Users/manvitha/OneDrive/Pictures/VID-20231015-WA0052.mp4"
+    video_path = "D:/Samsung Galaxy A71/Movies/WhatsApp/VID-20230125-WA0039.mp4"
     reverse_video_play(video_path)
