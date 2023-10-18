@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/manvi.jpg")
+img = cv2.imread("alone.jpeg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 laplacian_kernel = np.array([[0, 1, 0],
  [1, -4, 1],
