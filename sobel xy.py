@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image_path ="C:/Users/manvitha/OneDrive/Pictures/manvitha.jpg"
+image_path ="alone.jpeg"
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 sobel_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=3)
 sobel_y = cv2.Sobel(image, cv2.CV_64F, 0, 1, ksize=3)
