@@ -1,5 +1,5 @@
 import cv2
-video_path = "C:/Users/manvitha/OneDrive/Pictures/VID-20231015-WA0052.mp4"
+video_path = "D:/Samsung Galaxy A71/Movies/WhatsApp/VID-20230125-WA0039.mp4"
 cap = cv2.VideoCapture(video_path)
 if not cap.isOpened():
     print("Error opening video file")
