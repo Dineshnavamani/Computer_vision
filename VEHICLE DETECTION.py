@@ -31,5 +31,5 @@ def vehicle_detection(video_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    video_path ="C:/Users/manvitha/OneDrive/Pictures/CAR.mp4"
+    video_path ="D:/Samsung Galaxy A71/Movies/Whatsapp/VID-20230125-WA0039.mp4"
     vehicle_detection(video_path)
