@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread("C:/Users/manvitha/OneDrive/Pictures/manvi.jpg")
+img = cv2.imread("alone.jpeg")
 img = cv2.resize(img,(255, 255))
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Apply the Laplacian filter with a positive center coefficient
