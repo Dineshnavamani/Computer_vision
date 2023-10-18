@@ -1,5 +1,5 @@
 import cv2
-image_path ="C:/Users/manvitha/OneDrive/Pictures/manvi.jpg"
+image_path ="alone.jpeg"
 image = cv2.imread(image_path)
 angle_degrees = 45  # Adjust the angle as needed
 angle_degrees = 180
