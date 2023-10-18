@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image_path = "C:/Users/manvitha/OneDrive/Pictures/manvitha.jpg"
+image_path = "alone.jpeg"
 image = cv2.imread(image_path)
 original_points = np.float32([[50, 50], [200, 50], [50, 200]])
 transformed_points = np.float32([[10, 100], [200, 50], [100, 250]])
